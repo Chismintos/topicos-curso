@@ -1,0 +1,132 @@
+html{
+    font-size: 62.5% ;
+}
+
+ /* display flex para partir el container que tiene izq y der adentro utilizando divs */
+.container{
+    display: flex;
+    height: 100vh;
+}   
+
+body{
+    box-sizing: 
+    border-box; margin: 0;
+    
+}
+
+#izq{
+    background-color: darkseagreen; 
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    
+    
+}
+    
+#der{
+    background-color: cornflowerblue;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    
+}
+
+    #der h1{
+    font-size: 40px;
+    margin-left: 5%;
+    
+    }
+    
+
+    #der h2{
+        margin-left: 6%;
+        margin-top: 0%;}
+
+        #der p{
+            margin-left: 6%;
+            font-size: large;
+            margin-top: 0%;
+        }
+    
+    #der h3{
+        font-size: 25px;
+        margin-left: 6%;
+        margin-top: 0%;
+        }
+
+        #der ul{
+           
+        margin-left: 0%;
+        margin-top: 0%;
+        }
+
+        #der li{
+            margin-left: 6%;
+            margin-top: 0%;
+        }
+
+    #der h4{
+        font-size: 25px;
+        margin-left: 6%;
+        margin-top: 0%;
+        }
+
+    #der h5{
+        font-size: 25px;
+        margin-left: 6%;
+        margin-top: 0%;
+    }
+                        
+
+
+
+#izq img{
+    border-radius: 100px; 
+    align-self: center;
+    display: block;
+    margin: 22px;
+  
+}
+
+#izq h1{
+    font-size: large;
+    border-bottom: 5px solid #cee0c2; width: 80%;
+    align-self: center;
+    font-style: oblique;
+    text-align: center;
+
+}
+
+#izq p{
+    margin-left: 10%;
+}
+
+#izq h2{
+    font-size: large;
+    border-bottom: 5px solid #cee0c2; width: 80%;
+    align-self: center;
+    font-style: oblique;
+    text-align: center;
+    
+}
+
+    #izq ul{
+    font-size:medium;
+    margin: 0%;
+    
+    }
+
+        #izq li{
+        margin-top: 1%;
+        list-style: none;
+        }
+
+#izq h3{
+    font-size: large;
+    border-bottom: 5px solid #cee0c2; width: 80%;
+    align-self: center;
+    font-style: oblique;
+    text-align: center;
+}
