@@ -1,0 +1,96 @@
+/* head and body */
+
+body {
+    /* margin: 0;
+    padding: 0; */
+    
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: darkseagreen;
+    /* overflow-y: hidden; */
+    max-width: 100%; /* Establecer un ancho máximo */
+    margin: 0 auto; /* Centrar horizontalmente */
+    overflow-y: hidden; /* Ocultar barra de desplazamiento horizontal si se produce */
+  }
+
+    .grid-item3 input {
+      display: block; /* Cambia la presentación a bloque */
+  clear: both; /* Asegura que los párrafos se muestren debajo de los elementos anteriores */
+  margin-top: 10px; /* Agrega espacio arriba para separar los párrafos */
+
+    }
+  
+    .main {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgb(250, 204, 125);
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      width: 70%;
+      max-width: 300px;
+      
+    }
+    
+    
+    p{ 
+      position: fixed;
+  
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: left; /* Alinea los p a la izquierda */
+      width: 60%;
+      max-width: 330px;
+      background-color: rgba(0, 0, 0, 0.1);
+      
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+
+      
+        }
+
+       /* Primer p */
+p:nth-child(odd) {
+  top: calc(50% + 100px);
+}
+
+/* Segundo p */
+p:nth-child(even) {
+  top: calc(50% + 140px); /* Ajusta el valor para acercar los elementos */
+}
+ 
+
+  .main h2{
+    font-size: x-large;
+  }
+
+  .grid-item1{
+    text-align: left;
+  }
+
+  .grid-item1 label{
+    text-align: left;
+    margin-right: 6%;
+  }
+
+  .grid-item2{
+    text-align: left;
+    
+  }
+  .grid-item3 input{
+    margin-top: 6%;
+  }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="submit"] {
+    border-radius: 10px;
+    
+    }
+
+  .grid-item label{
+    margin-bottom: 5px;
+  }

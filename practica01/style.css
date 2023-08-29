@@ -5,7 +5,7 @@ html{
  /* display flex para partir el container que tiene izq y der adentro utilizando divs */
 .container{
     display: flex;
-    height: 100vh;
+    height: auto;
 }   
 
 body{
@@ -64,7 +64,7 @@ body{
 
         #der li{
             margin-left: 6%;
-            margin-top: 0%;
+            margin-top: 0px;
         }
 
     #der h4{
@@ -101,9 +101,10 @@ body{
 
 #izq p{
     margin-left: 10%;
+    margin-right: 4%;
 }
 
-#izq h2{
+#izq h2 {
     font-size: large;
     border-bottom: 5px solid #cee0c2; width: 80%;
     align-self: center;
@@ -130,3 +131,4 @@ body{
     font-style: oblique;
     text-align: center;
 }
+
