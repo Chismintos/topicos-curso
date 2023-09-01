@@ -56,3 +56,7 @@ form {
   justify-content: center;
   justify-self: center;
 }
+
+.cursor-pointer {
+  cursor: pointer;
+}
