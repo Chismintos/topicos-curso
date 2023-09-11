@@ -1,0 +1,90 @@
+*{
+  margin: 0%;
+  padding: 0;
+
+}
+
+.header{
+  background-color: rgb(38, 39, 48);
+  padding: 20px;
+  color: white
+  
+}
+
+.header-title{
+  text-align: center;
+  
+}
+
+.header-subtitle{
+  text-align: center;
+ 
+}
+
+
+
+/* Estilos para el contenedor principal */
+.courses-container {
+  
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 400px);
+  grid-auto-flow: row;
+  align-items: center;
+  justify-content: center;
+  
+
+  background-color: #f0f1b8;
+
+
+}
+
+/* Estilos para las tarjetas */
+.card {
+  /* border: 1px solid #000000; */
+  
+  margin: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 340px;; /* Ajusta la altura según tus preferencias */
+  width: 370px; /* Ajusta el ancho según tus preferencias */
+  
+  background-color: #77ba99;  position: relative; /* Hace que la tarjeta sea un elemento de posición relativa */
+  color: #000000;
+  font-weight: bold;
+
+  
+  
+
+}
+
+.card-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 4%;
+  border-style: dashed;
+}
+
+.card-content {
+  flex-grow: 1;
+  
+
+}
+
+
+/* Estilos para el botón en la esquina inferior derecha */
+.close-button {
+  position: absolute;
+  bottom: 20px; /* Ajusta la distancia desde la parte inferior según tu preferencia */
+  right: 10px; /* Ajusta la distancia desde la derecha según tu preferencia */
+  background-color: rgb(179, 213, 181); /* Color de fondo del botón */
+  color: rgb(0, 0, 0); /* Color del texto del botón */
+  border: #000000; 
+  padding: 10px 10px;
+  border-radius: 20%; /* Para hacerlo circular */
+  cursor: pointer;
+}
